@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lKf-L4-hig">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AboutMe-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab___Self_Personal__UITabBarController_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeY-ih-nCc">
+                                <rect key="frame" x="16" y="35" width="288" height="325"/>
+                                <string key="text">Увлечения:
+Активный образ жизни (вело, лыжи, хайкинг)
+DIY (построил частный дом, многое своими руками)
+Фото немного
+Музыка - слушаю ))
+Программированием никогда не занимался, 
+единственное, что смутно помню: были компьютер 
+«Спектрум» ))) и позже уроки информатики в школе)
+Изучаю Swift, Xcode и фреймворки.
+
++Good Vibes Only+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JeY-ih-nCc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Mah-1A-kKv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JeY-ih-nCc" secondAttribute="trailing" constant="16" id="NHd-nV-8Ed"/>
+                            <constraint firstItem="JeY-ih-nCc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="hJz-ni-1FJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="AboutMe" id="AzC-W2-WsF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="397.5" y="8.75"/>
+        </scene>
+        <!--Family Status-->
+        <scene sceneID="vnx-x7-TPn">
+            <objects>
+                <viewController id="h4r-r4-Ii8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fLC-7y-s3r">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Wd-as-CFn">
+                                <rect key="frame" x="8" y="35" width="304" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="DTZ-mn-Xcl"/>
+                                </constraints>
+                                <string key="text">С 2011 года женат
+Почти уже как три года назад родилась доченька
+Многое поменялось в жизни с рождением ребенка, но оно того стоило </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Wd-as-CFn" firstAttribute="top" secondItem="ZP3-0t-Wyx" secondAttribute="top" constant="15" id="M9d-3S-Vah"/>
+                            <constraint firstItem="0Wd-as-CFn" firstAttribute="leading" secondItem="ZP3-0t-Wyx" secondAttribute="leading" constant="8" id="Mfl-au-LPQ"/>
+                            <constraint firstItem="ZP3-0t-Wyx" firstAttribute="trailing" secondItem="0Wd-as-CFn" secondAttribute="trailing" constant="8" id="y21-TK-HFU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZP3-0t-Wyx"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family Status" id="qxd-pJ-kt5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="981-yg-QRk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="9"/>
+        </scene>
+        <!--Outro-->
+        <scene sceneID="uIz-d0-tO4">
+            <objects>
+                <viewController id="yE5-sK-KDY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7dN-gM-DfK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zCt-cG-mS2">
+                                <rect key="frame" x="8" y="275" width="304" height="156"/>
+                                <string key="text">Как и шведские ученые открываю для себя
+новое и интересное в области ИТ. Обработка 
+BigData, машинное обучение и нейросети, 
+дополненная и виртуальная реальность, 
+внедрение новых технологий в повседневную 
+жизнь от банальных покупок в магазине до 
+исследований в медицине. На сколько 
+координально может изменится наша жизнь 
+в ближайшем будущем даже сложно себе 
+представить</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Swift Photo" translatesAutoresizingMaskIntoConstraints="NO" id="owF-KL-tRF">
+                                <rect key="frame" x="8" y="100" width="304" height="158"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7h-xu-8Ub">
+                                <rect key="frame" x="8" y="20" width="304" height="72"/>
+                                <string key="text">Шведские ученые обнаружили, что стрижи в течение десяти месяцев никогда не приземляются. Это самое продолжительное время, проведенное в воздухе любым известным в мире видом пернатых, заявили ученые.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iN8-6Y-NBO" firstAttribute="trailing" secondItem="E7h-xu-8Ub" secondAttribute="trailing" constant="8" id="2b9-KZ-UjG"/>
+                            <constraint firstItem="zCt-cG-mS2" firstAttribute="top" secondItem="owF-KL-tRF" secondAttribute="bottom" constant="17" id="60p-3f-RvR"/>
+                            <constraint firstItem="E7h-xu-8Ub" firstAttribute="leading" secondItem="iN8-6Y-NBO" secondAttribute="leading" constant="8" id="AcG-1f-xDC"/>
+                            <constraint firstItem="iN8-6Y-NBO" firstAttribute="trailing" secondItem="owF-KL-tRF" secondAttribute="trailing" constant="8" id="Hxi-I8-Zqc"/>
+                            <constraint firstItem="owF-KL-tRF" firstAttribute="leading" secondItem="iN8-6Y-NBO" secondAttribute="leading" constant="8" id="KVX-pi-Sz1"/>
+                            <constraint firstItem="E7h-xu-8Ub" firstAttribute="top" secondItem="7dN-gM-DfK" secondAttribute="top" constant="20" id="MYf-Q5-uI5"/>
+                            <constraint firstItem="owF-KL-tRF" firstAttribute="top" secondItem="E7h-xu-8Ub" secondAttribute="bottom" constant="8" id="N4p-fK-k1N"/>
+                            <constraint firstItem="zCt-cG-mS2" firstAttribute="top" secondItem="owF-KL-tRF" secondAttribute="bottom" constant="17" id="Qc6-gX-Ik7"/>
+                            <constraint firstItem="owF-KL-tRF" firstAttribute="top" secondItem="E7h-xu-8Ub" secondAttribute="bottom" constant="8" id="TGC-Ig-70q"/>
+                            <constraint firstItem="iN8-6Y-NBO" firstAttribute="trailing" secondItem="zCt-cG-mS2" secondAttribute="trailing" constant="8" id="exT-d3-330"/>
+                            <constraint firstItem="zCt-cG-mS2" firstAttribute="bottom" secondItem="iN8-6Y-NBO" secondAttribute="bottom" id="iYU-XU-nev"/>
+                            <constraint firstItem="iN8-6Y-NBO" firstAttribute="trailing" secondItem="owF-KL-tRF" secondAttribute="trailing" constant="8" id="ipF-fg-IGy"/>
+                            <constraint firstItem="zCt-cG-mS2" firstAttribute="leading" secondItem="iN8-6Y-NBO" secondAttribute="leading" constant="8" id="oTO-kE-39x"/>
+                            <constraint firstItem="owF-KL-tRF" firstAttribute="leading" secondItem="iN8-6Y-NBO" secondAttribute="leading" constant="8" id="v8H-8o-zaJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iN8-6Y-NBO"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Outro" id="nfy-0n-mHg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ek-Xh-p2v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749.375" y="8.75"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4zR-df-0Ou">
+            <objects>
+                <viewController id="C8o-mu-F0w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ys2-7g-zKT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="porkcork@yandex.ru" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiT-rn-V47">
+                                <rect key="frame" x="16" y="129" width="288" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yiT-rn-V47" firstAttribute="leading" secondItem="VnP-PV-tkU" secondAttribute="leading" constant="16" id="RFK-Fy-Llb"/>
+                            <constraint firstItem="VnP-PV-tkU" firstAttribute="trailing" secondItem="yiT-rn-V47" secondAttribute="trailing" constant="16" id="f8p-HF-6e5"/>
+                            <constraint firstItem="yiT-rn-V47" firstAttribute="top" secondItem="VnP-PV-tkU" secondAttribute="top" constant="109" id="gro-BA-SgX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VnP-PV-tkU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="r6u-wG-Lo7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qaf-03-asV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2448.75" y="8.75"/>
+        </scene>
+        <!--MySelf-->
+        <scene sceneID="0rF-Eb-Jfz">
+            <objects>
+                <viewController id="BzW-Vg-1ua" sceneMemberID="viewController">
+                    <view key="view" alpha="0.94999999999999996" contentMode="scaleToFill" id="0kZ-1g-Y5N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Photo main" translatesAutoresizingMaskIntoConstraints="NO" id="L5N-cu-kQQ">
+                                <rect key="frame" x="8" y="71" width="304" height="145"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="304" id="Rhv-cx-Zs5"/>
+                                    <constraint firstAttribute="height" constant="145" id="pWk-Q2-tUu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5O-Vj-Ejp">
+                                <rect key="frame" x="16" y="238" width="288" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="00H-ZG-wOM"/>
+                                </constraints>
+                                <string key="text">Возраст - 34 года
+Город - Архангельск
+Образование - Экономическое (Финансы и кредит)
+Работа - после Университета 4 года работал в банке в 
+отделе кредитования ЮЛ и ИП, после - свой малый бизнес</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Филиппов Дмитрий" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bJ-lg-TcB">
+                                <rect key="frame" x="61" y="29" width="199" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L5N-cu-kQQ" firstAttribute="centerX" secondItem="0kZ-1g-Y5N" secondAttribute="centerX" id="01w-rd-ibB"/>
+                            <constraint firstItem="L5N-cu-kQQ" firstAttribute="top" secondItem="7bJ-lg-TcB" secondAttribute="bottom" constant="15" id="7bJ-vO-qcy"/>
+                            <constraint firstItem="7bJ-lg-TcB" firstAttribute="centerX" secondItem="0kZ-1g-Y5N" secondAttribute="centerX" id="ELD-nt-AWb"/>
+                            <constraint firstItem="o5O-Vj-Ejp" firstAttribute="top" secondItem="L5N-cu-kQQ" secondAttribute="bottom" constant="22" id="KVG-vb-nge"/>
+                            <constraint firstItem="o5O-Vj-Ejp" firstAttribute="leading" secondItem="Vbb-3u-N40" secondAttribute="leading" constant="16" id="KvF-hc-BKe"/>
+                            <constraint firstItem="Vbb-3u-N40" firstAttribute="trailing" secondItem="L5N-cu-kQQ" secondAttribute="trailing" constant="8" id="NBL-WY-VgB"/>
+                            <constraint firstItem="7bJ-lg-TcB" firstAttribute="top" secondItem="Vbb-3u-N40" secondAttribute="top" constant="9" id="OYh-6i-n4F"/>
+                            <constraint firstItem="L5N-cu-kQQ" firstAttribute="leading" secondItem="Vbb-3u-N40" secondAttribute="leading" constant="8" id="UrH-nB-EJk"/>
+                            <constraint firstItem="Vbb-3u-N40" firstAttribute="trailing" secondItem="o5O-Vj-Ejp" secondAttribute="trailing" constant="16" id="f3G-8M-cGe"/>
+                            <constraint firstItem="Vbb-3u-N40" firstAttribute="trailing" secondItem="L5N-cu-kQQ" secondAttribute="trailing" constant="8" id="xDW-fs-2aB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vbb-3u-N40"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MySelf" id="Wbb-qF-yxb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7XE-n7-YdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-268.125" y="7.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Oum-7s-lSc">
+            <objects>
+                <tabBarController id="lKf-L4-hig" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JDI-bL-swi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BzW-Vg-1ua" kind="relationship" relationship="viewControllers" id="aOH-YH-sTL"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="JNj-Se-Ihq"/>
+                        <segue destination="h4r-r4-Ii8" kind="relationship" relationship="viewControllers" id="vA2-C1-rQ9"/>
+                        <segue destination="yE5-sK-KDY" kind="relationship" relationship="viewControllers" id="nTA-oS-aKA"/>
+                        <segue destination="C8o-mu-F0w" kind="relationship" relationship="viewControllers" id="OTc-vN-h9h"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vfo-Ks-weV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="398" y="-891"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Photo main" width="180" height="255"/>
+        <image name="Swift Photo" width="224" height="266"/>
+    </resources>
+</document>
